@@ -1,6 +1,6 @@
 :root {
     --black: #363537;
-    --green: #A5ED66;
+    --green: #91d9a4;
     --orange: #ed7d3a;
 }
 
@@ -12,7 +12,7 @@
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: var(--black);
 }
 
 ul {
@@ -23,7 +23,8 @@ ul {
 body {
     font-size: 15px;
     font-family: sans-serif;
-    color: #fff;
+    color: var(--black);
+    background-color: #fff;
 }
 
 nav {
@@ -31,7 +32,6 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--black);
 }
 
 li {
@@ -56,14 +56,13 @@ button {
 }
 
 .sign-in-btn {
-    color: #fff;
     border: none;
     background-color: rgba(0, 0, 0, 0);
 }
 
 .sign-up-btn {
-    border: solid 2px var(--black);
-    background-color: var(--green);
+    border: solid 2px var(--green);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .header-options ul li:hover {
@@ -74,7 +73,7 @@ button {
 .sign-up-btn:hover {
     color: #fff;
     border: solid 2px #fff;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--green);
     transition-duration: 0.5s
 }
 
