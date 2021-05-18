@@ -1,3 +1,5 @@
+/* PRESENTATION BANNER */
+
 .presentation {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -22,15 +24,62 @@
     padding: 10px;
 }
 
-.presentation-btn {
-    font-size: 20px;
+.subscribe-btn {
     margin: 20px;
+    font-size: 20px;
     color: #fff;
     background-color: var(--orange);
     border: solid 2px var(--orange);
 }
 
-.presentation-btn:hover {
+.subscribe-btn:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
+}
+
+/* COURSES */
+
+.courses {
+    padding: 20px;
+    background-color: var(--black);
+}
+
+.courses h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses-card {
+    width: 320px;
+    margin: 40px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.8);
+}
+
+.card-img > img {
+    opacity: 0.8;
+    width: 100%;
+}
+
+.card-title {
+    margin: 15px;
+}
+
+.card-description {
+    display: none;
+}
+
+.card-img > img:hover {
+    opacity: 1;
+}
+
+.courses-card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s
 }

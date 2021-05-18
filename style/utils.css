@@ -35,7 +35,7 @@ nav {
 }
 
 li {
-    margin: 20px;
+    margin: 20px 35px;
 }
 
 .sign-header {
@@ -61,6 +61,7 @@ button {
 }
 
 .sign-up-btn {
+    margin-right: 20px;
     border: solid 2px var(--green);
     background-color: rgba(0, 0, 0, 0);
 }
