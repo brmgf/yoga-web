@@ -1,4 +1,4 @@
-/* PRESENTATION BANNER */
+/*   PRESENTATION BANNER   */
 
 .presentation {
     display: grid;
@@ -37,7 +37,7 @@
     transition-duration: 0.5s;
 }
 
-/* COURSES */
+/*   COURSES   */
 
 .courses {
     padding: 20px;
@@ -45,7 +45,8 @@
 }
 
 .courses h1 {
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
     color: #fff;
 }
 
@@ -60,6 +61,7 @@
     cursor: pointer;
     background-color: #fff;
     box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.8);
+    border-radius: 10px;
 }
 
 .card-img > img {
@@ -82,4 +84,57 @@
 .courses-card:hover {
     transform: scale(1.05);
     transition-duration: 0.5s
+}
+
+/*   NEWSLETTER   */
+
+.newsletter {
+    height: 450px;
+    display: flex;
+}
+
+.newsletter-banner {
+    width: 50%;
+    background-image: url("/assets/news-img.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.newsletter-subscription {
+    text-align: center;
+    width: 50%;
+    padding: 40px;
+    background-color: var(--orange);
+}
+
+.newsletter-form {
+    padding: 20px;
+    display: block;
+}
+
+.newsletter-form h3 {
+    margin: 10px 0 30px 0;
+}
+
+.newsletter-form > input {
+    width: 70%;
+    padding: 10px;
+    margin: 20px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid var(--black);
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-label, .newsletter-btn {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.newsletter-btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--black);
+    border: 2px solid var(--black);
 }
