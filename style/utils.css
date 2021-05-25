@@ -68,7 +68,7 @@ button {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.header-options ul li:hover {
+.header-options ul li:hover, .sign-in-btn:hover {
     transform: scale(1.1);
     transition-duration: 0.5s
 }

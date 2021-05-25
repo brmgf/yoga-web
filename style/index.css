@@ -15,6 +15,7 @@
 .presentation-msg {
     margin: 50px;
     display: flex;
+    letter-spacing: 1px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -26,15 +27,16 @@
 
 .subscribe-btn {
     margin: 20px;
-    font-size: 20px;
+    font-size: 17px;
     color: #fff;
     background-color: var(--orange);
     border: solid 2px var(--orange);
 }
 
 .subscribe-btn:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+    color: var(--orange);
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px var(--orange);
 }
 
 /*   COURSES   */
@@ -46,7 +48,7 @@
 
 .courses h1 {
     margin-top: 20px;
-    margin-left: 40px;
+    text-align: center;
     color: #fff;
 }
 
@@ -61,7 +63,8 @@
     cursor: pointer;
     background-color: #fff;
     box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.8);
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .card-img > img {
