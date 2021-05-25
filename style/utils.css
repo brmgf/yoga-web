@@ -1,3 +1,5 @@
+/* NAV BAR */
+
 :root {
     --black: #363537;
     --green: #91d9a4;
@@ -76,4 +78,21 @@ button {
     border: solid 2px #fff;
     background-color: var(--green);
     transition-duration: 0.5s
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: var(--black);
+}
+
+.footer h3, .footer p {
+    color: #fff;
+}
+
+.footer a{
+    color: var(--green);
 }
