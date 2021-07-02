@@ -71,6 +71,10 @@
     background-color: #1c1c1dea;
 }
 
+.run {
+    font-family: monospace;
+}
+
 .courses-card {
     width: 300px;
     margin: 40px;
